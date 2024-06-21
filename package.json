@@ -1,0 +1,19 @@
+{
+  "name": "quiz",
+  "version": "1.0.0",
+  "description": "A multiple questions game",
+  "main": "index.js",
+  "type": "module",
+  "bin": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "romaisa",
+  "license": "MIT",
+  "dependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.14.7",
+    "inquirer": "^9.2.23",
+    "quiz": "^0.1.0"
+  }
+}

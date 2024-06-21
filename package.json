@@ -1,10 +1,13 @@
 {
-  "name": "quiz",
+  "name": "@romaisakhurram/quiz",
   "version": "1.0.0",
   "description": "A multiple questions game",
   "main": "index.js",
   "type": "module",
   "bin": "main.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
